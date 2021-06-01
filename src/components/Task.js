@@ -1,6 +1,6 @@
-import { FaTimes } from "react-icons/fa";
+import { FaTimes, FaEdit } from "react-icons/fa";
 
-const Task = ({ task, onDelete, onToggle }) => {
+const Task = ({ task, onDelete, onToggle, onEdit }) => {
   return (
     <div
       className={`task ${task.reminder ? "reminder" : ""}`}
@@ -8,7 +8,9 @@ const Task = ({ task, onDelete, onToggle }) => {
     >
       <h3>
         {task.text}{" "}
+        <FaEdit className="edit-icon" onClick={() => onEdit(task.id)} />
         <FaTimes
+          className="remove-icon"
           style={{ color: "red", cursor: "pointer" }}
           onClick={() => onDelete(task.id)}
         />

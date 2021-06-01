@@ -81,6 +81,12 @@ const App = () => {
     );
   };
 
+  // Edit tasks
+  const editTask = (id) => {
+    // TODO: implement editTask
+    console.log("id", id)
+  }
+
   return (
     <Router>
       <div className="container noselect">
@@ -100,6 +106,7 @@ const App = () => {
                   tasks={tasks}
                   onDelete={deleteTask}
                   onToggle={toggleReminder}
+                  onEdit={editTask}
                 />
               ) : (
                 "No Tasks To Show"

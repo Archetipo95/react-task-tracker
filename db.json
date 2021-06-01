@@ -1,45 +1,27 @@
 {
   "tasks": [
     {
-      "id": 1,
-      "text": "Testo numero",
-      "day": "Giornio tale",
-      "reminder": false
-    },
-    {
       "id": 2,
       "text": "Messaggio",
       "day": "giorno 2",
-      "reminder": true
-    },
-    {
-      "text": "tettt",
-      "day": "ttt",
-      "reminder": true,
-      "id": 3
+      "reminder": false
     },
     {
       "text": "test",
       "day": "dddd",
-      "reminder": false,
-      "id": 4
-    },
-    {
-      "text": "ciao come va",
-      "day": "1234",
       "reminder": true,
-      "id": 5
+      "id": 4
     },
     {
       "text": "d",
       "day": "",
-      "reminder": false,
+      "reminder": true,
       "id": 6
     },
     {
       "text": "ddd",
       "day": "",
-      "reminder": false,
+      "reminder": true,
       "id": 7
     },
     {
@@ -51,7 +33,7 @@
     {
       "text": "ddddd",
       "day": "",
-      "reminder": false,
+      "reminder": true,
       "id": 9
     }
   ]
